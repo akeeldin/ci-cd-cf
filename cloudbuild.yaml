@@ -3,7 +3,7 @@ steps:
   args:
   - functions
   - deploy
-  - helloCiCd # Function name
+  - helloCiCd # Function name here
   - --source=. # Function source files
   - --trigger-http
   - --runtime=nodejs10
