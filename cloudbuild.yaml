@@ -6,3 +6,4 @@ steps:
   - helloCiCd # Function name
   - --source=. # Function source files
   - --trigger-http
+  - --runtime=nodejs10
