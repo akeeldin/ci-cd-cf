@@ -3,6 +3,7 @@ steps:
   args:
   — functions
   — deploy
+  - helloCiCd
   —— runtime=nodejs8
   —— trigger-http
   —— source=./ # Function source files
